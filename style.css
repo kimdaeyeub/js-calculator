@@ -5,20 +5,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: rgb(82, 87, 203);
-  background: linear-gradient(
-    180deg,
-    rgba(82, 87, 203, 1) 0%,
-    rgba(45, 22, 77, 1) 100%
-  );
+  background-color: black;
 }
 
 .cal-frame {
   width: 380px;
-  height: 750px;
+  height: 740px;
   background-color: black;
   border-radius: 30px;
   overflow: hidden;
+  border: 2px solid white;
 }
 
 .output-frame {
